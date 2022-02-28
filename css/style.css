@@ -4,14 +4,14 @@ body{
   margin: 0;
 }
 
-.header{
+header{
   background-image: url(../img/pattern.png);
   background-color: #4ea0ff;
   background-size: contain;
  }
 
 .logo{
-  padding: 20px;
+  padding-top: 20px;
 }
 
 #logo{
@@ -34,4 +34,18 @@ h3, h4{
 }
 .blue{
   color: blue;
+}
+.galleria{
+  margin-top: 2%;
+}
+
+ .galleria span{
+  display: block;
+}
+
+.evidenziato{
+  background-color: yellow;
+}
+ul{
+  padding-inline-start: 15px;
 }
