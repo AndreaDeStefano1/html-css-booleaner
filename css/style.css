@@ -49,3 +49,24 @@ h3, h4{
 ul{
   padding-inline-start: 15px;
 }
+
+table{
+  width: 100%;
+  border-spacing: 0;
+}
+
+th{  
+  text-align: left;
+  color: white;
+}
+thead{
+  background-color: #20a9e5;
+  
+}
+
+.rigaconsfondo{
+  background-color: rgb(177, 229, 242);
+}
+.colonna1, .colonna2{
+  width: 25%;
+}
