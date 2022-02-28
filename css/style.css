@@ -22,30 +22,36 @@ header{
 /* MAIN */
 
 .container{
-  width: 80%;
+  position:relative;
+  width: 81%;
   margin: auto;  
 }
+
 h1{
   margin-bottom: 0;
 }
+
 h3, h4{
   margin: 0;
   color: rgb(163, 163, 163);
 }
+
 .blue{
-  color: blue;
+  color: #20a9e5;
 }
+
 .galleria{
   margin-top: 2%;
 }
 
- .galleria span{
+.galleria span{
   display: block;
 }
 
 .evidenziato{
   background-color: yellow;
 }
+
 ul{
   padding-inline-start: 15px;
 }
@@ -59,6 +65,7 @@ th{
   text-align: left;
   color: white;
 }
+
 thead{
   background-color: #20a9e5;
   
@@ -67,6 +74,26 @@ thead{
 .rigaconsfondo{
   background-color: rgb(177, 229, 242);
 }
+
 .colonna1, .colonna2{
   width: 25%;
+}
+
+footer h3{
+  margin-bottom: 1%;
+}
+.monitor{
+  background-image: url(../img/monitor.jpg);
+
+}
+.graph{
+  
+  background-image: url(../img/graph.jpg);
+}
+.monitor, .graph{
+  width: 290px;
+  height: 190px;
+  color: white;
+  padding: 15px 0px 0px 15px;
+  margin-bottom: 1%;
 }
